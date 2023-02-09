@@ -1,5 +1,9 @@
 # Jobify
 
+## Update
+
+Good news! I deployed the app on Heroku. So you can visit it using [this link](https://qianwei-jobify.herokuapp.com/) without waiting for 30 seconds!!!
+
 ## Track Your Job Search
 
 Project in Action - [Jobify](https://jobify-qtjc.onrender.com/)
