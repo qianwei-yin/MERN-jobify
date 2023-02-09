@@ -2,7 +2,7 @@
 	"name": "jobify",
 	"version": "1.0.0",
 	"description": "#### Track Your Job Search",
-	"main": "index.js",
+	"main": "server.js",
 	"type": "module",
 	"scripts": {
 		"setup-production": "npm run install-client && npm run build-client && npm install",
@@ -16,10 +16,6 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {
-		"concurrently": "^7.6.0",
-		"nodemon": "^2.0.20"
-	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
 		"cookie-parser": "^1.4.6",
@@ -35,6 +31,8 @@
 		"mongoose": "^6.8.3",
 		"morgan": "^1.10.0",
 		"validator": "^13.7.0",
-		"xss-clean": "^0.1.1"
+		"xss-clean": "^0.1.1",
+		"concurrently": "^7.6.0",
+		"nodemon": "^2.0.20"
 	}
 }
