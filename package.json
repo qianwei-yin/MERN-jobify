@@ -10,7 +10,7 @@
 		"install-client": "cd client && npm install",
 		"build-client": "cd client && npm run build",
 		"server": "nodemon server.js",
-		"client": "npm start --prefix client",
+		"client": "npm run start --prefix client",
 		"start": "concurrently --kill-others-on-fail \" npm run server\" \" npm run client\""
 	},
 	"keywords": [],
