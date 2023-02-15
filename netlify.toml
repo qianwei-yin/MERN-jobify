@@ -1,7 +1,7 @@
 [build]
-    functions="./server.js"
+    functions="./"
 
 [[redirects]]
     from="/*"
-    to="/.netlify/:splat"
+    to="/.netlify/server:splat"
     status=200 
